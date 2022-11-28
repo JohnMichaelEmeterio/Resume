@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(229, 225, 225);
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #1618169e;
+}
+.bg-photo {
+  background-size: contain;
+  height:460px;
+  width: 102%;
+  margin: -56px 0px 0px -8px;
+  background-image:url('image/bg.jpg');
+}
+.profile {
+    background-size: cover;
+    height: 365px;
+    width: 25%;
+    border-radius: 50%;
+    margin: -175px 0px 0px 64px;
+    background-image: url('image/profile.jpg');
+}
+.name {
+    position: absolute;
+    margin: -550px 0px 0px 580px;
+    font-size: 50px;
+}
+.container {
+    margin: 13px 0px 0px 500px;
+    font-size: 20px;
+}
+.about {
+    margin: -160px 0px 0px 320px;
+    font-size: 50px;
+}
+.coding {
+    margin: 15px 0px 0px 380px;
+    font-size: 20px;
+}
+.card {
+    float: left;
+    background-color: rgb(247, 243, 243);
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 35px;
+}
+.border {
+    position: relative;
+    border: 4px solid gray;
+    height: 1300px;
+    width: 34%;
+    top: -25em;
+    z-index: 1;
+}
+.bordercon {
+    position: relative;
+        background-color: rgb(247, 243, 243);  
+        height: 890px;
+        width: 100%;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        margin-top: 420px;
+}
+.text {
+    position: absolute;
+    margin: 20px 0px 0px 30px;
+}
+.list {
+    margin: -30px 0px 0px 30px;
+    font-size: 20px;
+}
+.text-2 {
+    margin: 20px 0px 0px 700px;
+}
+.proficiency {
+    width: 20em;
+    background-color: rgb(54, 63, 66);
+    height: 20px;
+}
+.proficiency-2 {
+    width: 80%;
+    background-color: rgb(54, 63, 66);
+    height: 20px;
+}
+.proficiency-3 {
+    width: 80%;
+    background-color: rgb(54, 63, 66);
+    height: 20px;
+}
+.proficiency-4 {
+    width: 80%;
+    background-color: rgb(54, 63, 66);
+    height: 20px;
+}
+.proficiency-5 {
+    width: 80%;
+    background-color: rgb(54, 63, 66);
+    height: 20px;
+}
+.addIcon {
+    height: 20px;
+    width: 6%;
+    float: left;
+    padding-right: 9px;
+}
+.mailIcon {
+    height: 20px;
+    width: 6%;
+    float: left;
+    padding-right: 9px;
+}
+.phoneIcon {
+    height: 20px;
+    width: 6%;
+    float: left;
+    padding-right: 9px;
+}
+.fbIcon {
+    height: 20px;
+    width: 6%;
+    float: left;
+    padding-right: 9px;
+}
+.igIcon {
+    height: 20px;
+    width: 6%;
+    float: left;
+    padding-right: 9px;
+}
+.gitIcon {
+    height: 20px;
+    width: 6%;
+    float: left;
+    padding-right: 9px;
+}
